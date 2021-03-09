@@ -9,15 +9,16 @@
     margin: auto;
     text-align: center;
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .header{
   font-size:60px;  
   color: rgb(245, 214, 199);
   font-family: 'Quicksand', sans-serif;
+  position: relative;
+  top: -40px;
 }
-
 .tolist{
   width: 500px;
   margin-left: auto;
@@ -25,6 +26,7 @@
 	justify-content: space-between;
 	align-items: center;
 	position: relative;
+  top:-60px;
 	box-shadow: 0 10px 10px rgba(139,139,139,.25);
   background:white ;  
 }
@@ -93,6 +95,7 @@
   background: white;
   position: relative;
   left: 55px;
+  top: -60px;
   border-bottom: 1px solid #f0e9e9;
   border-top: 1px solid #f0e9e9;
 }
@@ -102,5 +105,6 @@
   background: white;
   position: relative;
   left: 58px;
+  top: -60px;
   border-bottom: 1px solid #f0e9e9;
 }

@@ -1,13 +1,14 @@
 import './App.css';
 import NewElement from './components/NewElement';
-//import List from './componentes/List';
 
 function App() {
   return (
-    <div className="body">
-       <h1 className="header">todos</h1>
-       <NewElement />
-    </div> 
+    <div className="total">
+      <div className="body">
+        <h1 className="header">todos</h1>
+        <NewElement />
+      </div>
+    </div>
   );
 }
 

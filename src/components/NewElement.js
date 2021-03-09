@@ -39,4 +39,4 @@ const NewElement = () => {
     );
 }
 
-export default NewElement
+export default NewElement;

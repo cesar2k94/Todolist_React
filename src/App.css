@@ -23,6 +23,7 @@
 	position: relative;
 	box-shadow: 0 2px 10px rgba(139,139,139,.25);
   background:white ;
+  
 }
 
 .new-tolist{
@@ -50,7 +51,6 @@
 
 .element {
 	height: 60px;
- 
 	align-items: center;
 	color: #4B4B4B;
 	font-size: 20px;
@@ -79,6 +79,24 @@
   opacity: 0.4;
   position: relative;
   left: -200px;
-  top: -15px;
- 
+  top: -23px;
+  height:10px;
+}
+
+.shade1{
+  width: 490px;
+  height: 5px;
+  background: white;
+  position: relative;
+  left: 55px;
+  border-bottom: 1px solid #f0e9e9;
+  border-top: 1px solid #f0e9e9;
+}
+.shade2{
+  width: 485px;
+  height: 5px;
+  background: white;
+  position: relative;
+  left: 58px;
+  border-bottom: 1px solid #f0e9e9;
 }

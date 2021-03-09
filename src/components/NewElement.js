@@ -33,7 +33,8 @@ const NewElement = () => {
                     <p>{list1.length} item left</p>
                 </div>
             </form>
-            
+            <div className="shade1"></div>
+            <div className="shade2"></div>
         </>
     );
 }

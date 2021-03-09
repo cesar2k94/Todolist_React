@@ -9,15 +9,15 @@ const List = ({ list1, setList1 }) => {
     }
     return (
         <ul className="list">
-            {list1.map((list) =>
-                <li className="element">
-                    <div className="text-element">
+            {list1.map((list, index) =>
+                <li className="element" key={index}>
+                    <div className="text-element" >
                         {list}
                     </div>
                     <FontAwesomeIcon
                         icon={faTimes}
                         className="delete-element"
-                        onClick={()=>DeleteElement(list)}
+                        onClick={()=>DeleteElement(list)}                        
                     />
                 </li>
             )}

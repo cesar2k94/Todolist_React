@@ -20,7 +20,6 @@ const List = ({ list1, setList1 }) => {
                         onClick={()=>DeleteElement(list)}
                     />
                 </li>
-
             )}
         </ul>
     );

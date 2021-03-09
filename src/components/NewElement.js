@@ -29,6 +29,9 @@ const NewElement = () => {
                     onChange={InputElement}
                 />
                 <List list1={list1} setList1={setList1}/>
+                <div className="sizeList">
+                    <p>{list1.length} item left</p>
+                </div>
             </form>
             
         </>

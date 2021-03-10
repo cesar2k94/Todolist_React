@@ -4,8 +4,8 @@ import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
 
 const List = ({ list1, setList1 }) => {
-    const DeleteElement=(delList)=>{
-        setList1(list1.filter(list2=>list2!==delList));
+    const DeleteElement=(index)=>{
+        setList1(list1.filter((list2,ind)=>(ind!==index)));
     }
     return (
         <ul className="list">
@@ -17,7 +17,7 @@ const List = ({ list1, setList1 }) => {
                     <FontAwesomeIcon
                         icon={faTimes}
                         className="delete-element"
-                        onClick={()=>DeleteElement(list)}                        
+                        onClick={()=>DeleteElement( index)}                        
                     />
                 </li>
             )}

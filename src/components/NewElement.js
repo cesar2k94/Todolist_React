@@ -15,7 +15,6 @@ const NewElement = () => {
         e.preventDefault();
         setList1(list1.concat(element));
         setElement('');
-        console.log(list1);
     }
 
     return (
